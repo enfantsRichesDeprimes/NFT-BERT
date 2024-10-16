@@ -7,7 +7,7 @@ from tqdm import tqdm
 from transformers import BertTokenizer, BertForSequenceClassification
 import logging
 
-from train import SmartContractDataset
+from SmartContractDataset import SmartContractDataset
 
 # 准备数据集
 val_data_folder = 'dataset/Dataset/Dataset'
